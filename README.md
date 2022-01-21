@@ -24,9 +24,10 @@ pxs = [|true,true,false,false,
 The matrix pxs has dimensions ```NPEOPLE * NSESSIONS``` and is ```true``` when the person i want to see the session j.
 
 ## How to run
-First, install [minizinc](https://www.minizinc.org/) on your machine.
+First, install [Minizinc](https://www.minizinc.org/) on your machine.
 
 Clone this repo and then run
 ```
 minizinc --solver Gecode src/conference_organization.mzn datasets/dataset2.dzn
 ```
+Otherwise you can open the model and the dataset in the Minizinc IDE and then run attaching the dataset.
