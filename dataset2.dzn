@@ -1,0 +1,16 @@
+NSESSIONS = 6;
+NROOMS = 3;
+NDAYS = 3;
+NPEOPLE = 8;
+CAPACITY = 4;
+MAX_SESSIONS_PER_PERSON = 3;
+
+% PxS initializazion
+pxs = [|true,true,false,false,true,false,
+       |false,true,false,true,false,true,
+       |false,true,true,false,true,false,
+       |false,false,true,true,true,false,
+       |true,true,false,false,true,false,
+       |false,true,true,false,true,false,
+       |true,false,true,false,false,true,
+       |true,false,true,false,false,true|];
