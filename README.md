@@ -2,11 +2,11 @@
 Minizinc script for a conference organization.
 
 ## Model
-The file under src folder is Mnizinc model for this project.
+The src folder contains the Minizinc model for this project.
 
 ## Dataset
-The file under datasets folder are the dataset. You can customize or create a new file in order to obtain your personal dataset.
-A dataset template is like this:
+Under datasets folder there are dataset files. You can customize or create a new one in order to create your personal dataset.
+A dataset template is something like this:
 ```
 NSESSIONS = 4;
 NROOMS = 3;
@@ -21,12 +21,12 @@ pxs = [|true,true,false,false,
        |false,true,true,false,
        |false,false,true,true|];
 ```
-The matrix pxs has dimensions ```NPEOPLE * NSESSIONS``` and is ```true``` when the person i want to see the session j.
+The matrix pxs has dimensions ```NPEOPLE * NSESSIONS``` and is ```true``` when the person i want to sees the session j.
 
 ## How to run
-First, install [Minizinc](https://www.minizinc.org/) on your machine.
+First of all, please install [Minizinc](https://www.minizinc.org/) on your machine.
 
-Clone this repo and then run
+Then clone this repo and run
 ```
 minizinc --solver Gecode src/conference_organization.mzn datasets/dataset2.dzn
 ```
