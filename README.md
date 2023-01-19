@@ -28,6 +28,6 @@ First of all, please install [Minizinc](https://www.minizinc.org/) on your machi
 
 Then clone this repo and run
 ```
-minizinc --solver Gecode src/conference_organization.mzn datasets/dataset2.dzn
+minizinc --solver Gecode src/conference_organization.mzn datasets/dataset3.dzn
 ```
 Otherwise you can open the model and the dataset in the Minizinc IDE and then run attaching the dataset.
